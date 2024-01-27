@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Valuation - By Sarfaraz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://www.svgrepo.com/show/246204/landscape-hot-air-balloon.svg" type="image/x-icon">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <div class="container" style="margin-top: 15px;">
+    <h2>Valuation Table for City</h2>
+    <div class="sub_container">
+      <label for="area">Area in SQFT</label>
+      <input type="number" id="area">
+      <label for="areaSelect">Select Area</label>
+      <select id="areaSelect">
+        <option disabled selected>Select Area</option>
+      </select>
+      <label for="typeSelect">Select Type</label>
+      <select id="typeSelect">
+        <option disabled selected>Select Type</option>
+      </select>
+    </div>
+    <div class="result">
+      <table>
+        <tbody>
+          <tr>
+            <td>Amount per Sqft</td>
+            <td id="value" class="value">0</td>
+          </tr>
+          <tr>
+            <td>Total Amount</td>
+            <td id="totalamount" class="value">0</td>
+          </tr>
+          <tr>
+            <td>Estamp</td>
+            <td id="estamp" class="value">0</td>
+          </tr>
+          <tr>
+            <td>K-Tax</td>
+            <td id="ktax" class="value">0</td>
+          </tr>
+          <tr>
+            <td>C-Tax</td>
+            <td id="ctax" class="value">0</td>
+          </tr>
+          <tr>
+            <td>Filer</td>
+            <td id="filer" class="value">0</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <a href="/gos-valuation.github.io/" class="button">Get Agriculture Valution</a>
+    </div>
+  </div>
+  <footer>
+    Created By <a href="https://linktr.ee/sarfarazunar">Sarfaraz Unar</a>
+  </footer>
+  <script src="script2.js"></script>
+</body>
+
+</html>
