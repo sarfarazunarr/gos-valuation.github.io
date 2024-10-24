@@ -53,8 +53,8 @@ document.addEventListener("DOMContentLoaded", function() {
 function updateTotalAmount() {
   totalvalue = amount * area;
   totalAmount.innerText = `Rs.${totalvalue}`;
-  estamp.innerText = `Rs.${totalvalue / 100}`;
-  ktax.innerText = `Rs.${(totalvalue / 100 ) * 10.5}`;
-  ctax.innerText = `Rs.${(totalvalue / 100) * 6}`;
+  estamp.innerText = `Rs.${(totalvalue / 100) * 2}`;
+  ktax.innerText = `Rs.${(totalvalue / 100 ) * 12}`;
+  ctax.innerText = `Rs.${(totalvalue / 100) * 10}`;
   filer.innerText = `Rs.${(totalvalue / 100) * 3}`;
 }
