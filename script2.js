@@ -67,9 +67,9 @@ function updateTotalAmount() {
       printvalue.innerText = `Rs.${totalvalue}`;
       let valuation = totalvalue * area;
       totalAmount.innerText = `Rs.${valuation}`;
-      estamp.innerText = `Rs.${valuation / 100}`;
-      ktax.innerText = `Rs.${(valuation / 100) * 10.5}`;
-      ctax.innerText = `Rs.${(valuation / 100) * 6}`;
+      estamp.innerText = `Rs.${(valuation / 100) * 2}`;
+      ktax.innerText = `Rs.${(valuation / 100) * 12}`;
+      ctax.innerText = `Rs.${(valuation / 100) * 10}`;
       filer.innerText = `Rs.${(valuation / 100) * 3}`;
     } else {
       totalAmount.innerText = 'N/A';
